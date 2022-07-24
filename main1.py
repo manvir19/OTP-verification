@@ -10,7 +10,7 @@ otp = OTP+" is your otp"
 msg = otp
 s = smtplib.SMTP('smtp.gmail.com',587)
 s.starttls()
-s.login("manvirkaur.kanda@gmail.com","pjituqzgixzpvsgn")
+s.login("user_mail","user_password")
 email = input("Enter your email-id for verification ")
 s.sendmail('&&&&&&',email,msg)
 a = input("Enter you OTP")
